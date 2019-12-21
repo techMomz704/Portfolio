@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+   
+    
+<style>
+  body{
+    margin: 0;
+  }
+
+  .container{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+
+  .navHead{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+header{
+  background: #008080;
+}
+
+
+header  :after{
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+  nav{
+    justify-content: center;
+  }
+
+  nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li{
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .navHead:link, .navHead:visited {
+  color: #ffffff;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+  .navHead:hover, .navHead:active{
+    background-color: #000000;
+  }
+
+
+  #introImg{
+    height:250px;
+    width:250px;
+    margin-top: 80PX;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 75px;
+  }
+
+ .portSects{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #paraIntro{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    font-size: larger;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .projSect{
+    margin-top: 100px;
+  }
+
+  .card{
+    margin-top: 50px;
+  }
+
+  .card-body{
+    text-align: center;
+  }
+
+  .card-deck{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+    </style>
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#projects" class="nav-link active navHead">PROJECTS</a></li>
+            <li><a href="#publications" class="navHead">PUBLICATIONS</a></li>
+            <li><a href="#skills" class="navHead" >SKILLS</a></li>
+            <li><a href="#about" class="navHead">ABOUT</a></li>
+            <li><a href="#contact" class="navHead">CONTACT</a></li>
+          </ul>
+        </nav>
+        <img id="introImg" src="C:\Users\saman\Downloads\html5up-big-picture\images\fulls\50nFAB.jpg">
+
+        <p id="paraIntro">Hello! My name is Samantha Banks. I am a web developer who is passionate about coding and digital project management. 
+      </p> 
+      </div>
+    </header>
+
+    <div class="projSect">
+      <a href="#projects"></a>
+      <h1 class="portSects">Projects</h1>
+
+      <div class="card-deck">
+      <div class="card" style="width: 20rem; border: solid black 1px;">
+        <img src="C:\Users\saman\OneDrive\Documents\Unlock Academy\FirstTest\images\Newsletter_Cropped.jpg" card-img-top alt="image of email newsletter">
+        <div class="card-body">
+          <h4>Email Newsletter</h4>
+          <p class="card-text">An example of an email newsletter created with Shradha Doshi using html and inline css.</p>
+          <a href="https://github.com/techMomz704/email_newsletter" target="_blank" class="btn btn-info">GitHub</a>
+          <a href="https://techmomz704.github.io/email_newsletter/" target="_blank" class="btn btn-info">Website</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; border: solid black 1px;">
+        <img src="" card-img-top alt="">
+        <div class="card-body">
+          <h4>Some Title</h4>
+          <p class="card-text">Some Text.</p>
+          <a href="#" target="_blank" class="btn btn-info">GitHub</a>
+          <a href="#" target="_blank" class="btn btn-info">Website</a>
+
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; border: solid black 1px;">
+        <img src="" card-img-top alt="">
+        <div class="card-body">
+          <h4>Some Title</h4>
+          <p class="card-text">Some Text.</p>
+          <a href="#" target="_blank" class="btn btn-info">GitHub</a>
+          <a href="#" target="_blank" class="btn btn-info">Website</a>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="projSect">
+      <a href="#publications"></a>
+      <h1 class="portSects">Publications</h1>
+      </div>
+
+    
+  </body>
+</html>
